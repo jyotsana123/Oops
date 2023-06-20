@@ -9,11 +9,11 @@ public class Interface {
 //Interface allows to contain only abstract methods
 //interface is 100% pure abstract class
 //For the interfaces object creation is not allowed
-//It's represent the functionality of the application and letter we implement the functionalities
+//It's represent the functionality of the application and latter we implement the functionalities
 //Interface methods are by default public and abstract.
 //In interface it's possible to apply the inheritance concept with extends keyword
 //One interface is able to extends multiple interfaces at a time.
-//Interface are be default abstract
+//Interface are by default abstract
 //Interface methods are by default public and abstract
 //Interface variables are by default public static and final
 /*  
@@ -54,4 +54,7 @@ class A implements It1, It2 extends B ---> InValid
  */
 
 /* the process of creating exactly duplicate object is called cloning process, the main object of cloning is to maintain backup.
+ * we create the duplicate object by using clone() method
+ * Test t1 = (Test)t.clone();
+ * class is not able to create duplicate object if you want to create duplicate object you need to use clone() method and class must be implements cloneable interface. 
  */
